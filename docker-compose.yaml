@@ -1,0 +1,7 @@
+services:
+  discord-bot:
+    image: discord
+    build: ./src
+    container_name: discord-bot
+    restart: unless-stopped
+    env_file: ./src/.env
