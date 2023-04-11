@@ -1,6 +1,6 @@
 services:
   discord-bot:
-    image: discord
+    image: discord-bot
     build: ./src
     container_name: discord-bot
     restart: unless-stopped
